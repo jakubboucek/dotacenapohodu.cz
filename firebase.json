@@ -5,6 +5,12 @@
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "/favicon.ico",
+        "destination": "/img/favicon.png"
+      }
     ]
   },
   "emulators": {
